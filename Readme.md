@@ -1,1 +1,1 @@
-Este documento apresenta o desenvolvimento do projeto de Sistema de Gestão de Entrega de Produtos. Esse projeto tem como objetivo demonstrar as habilidades do autor como Analista e Desenvolvedor de Sistemas.
+Este documento apresenta o desenvolvimento do projeto de Sistema de Gestão de Entrega de Produtos. Esse projeto tem como objetivo demonstrar as habilidades do autor(Daniel Ferreira Sousa) como Analista e Desenvolvedor de Sistemas.
