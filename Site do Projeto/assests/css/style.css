@@ -1,22 +1,227 @@
+/*Estilo Gerais*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
-    background-color: #152540;
-}
-h1{
-    font-weight: bold;
-}
-div.dark{
-    text-align: center;
+    background-color: white;
     font-family: Verdana, sans-serif;
-    color: #ffffff;
-    background-color: #12111f;
 }
-div.bottom{
-    border-bottom: solid #ffffff;
+
+footer{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
 }
-div.main{
-    border-left: solid #ffffff;
-    border-right: solid #ffffff;
+
+hr{
+   border: 2px solid black;
+   width: 25%;
 }
-div.top{
-    border-top: solid #ffffff;
+
+/*Mais Estilos*/
+#container{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.555);
+    position: relative;
+}
+
+nav.navegacao-principal{
+    position: fixed;
+    top: 0;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #66B2FF;
+}
+
+nav.navegacao-principal div, nav.navegacao-principal a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px;
+    font-size: 18px;
+    color: #000;
+}
+
+nav.navegacao-principal a:hover{
+    background-color: white;
+    color: rgb(71, 104, 228);
+    border-radius: 20px;
+}
+
+
+.rastreamento{
+    background-color: rgb(71, 104, 228);
+    padding-top: 80px;
+    height: 400px;
+}
+
+.rastreamento div#rastrear{
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    padding: 10px ;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.rastreamento h1{
+    text-align: center;
+    padding: 30px;
+}
+
+.menu-item{
+    display: flex;
+    width: 700px;
+    height: 200px;
+    margin: 35px auto;
+}
+
+.item{
+    flex-grow: 1;
+    background-color: #66B2FF;    
+    padding: 20px 10px 0px;
+    width: 200px;
+    text-align: center;
+    border-right: 3px solid white;
+    border-radius: 20px;
+}
+
+.item h3{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.item p{
+    font-size: 14px;
+    text-align: center;
+}
+
+#item-img{
+    width: 50px;
+    height: 50px;
+    padding-bottom: 2px;
+}
+
+#item-img2{
+    height: 50px;
+    padding-bottom: 1px;
+}
+
+#item-img3{
+    height: 51px;
+    padding-bottom: 1px;
+
+}
+
+.caixa-entregas{
+    display: flex;
+    justify-content: center;
+    height: 345px;
+    margin: 20px 0;
+}
+
+.caixa-entregas img{
+    width: 550px;
+    height: 300px;
+}
+
+.caixa-entregas-2{
+    display: flex;
+    justify-content: center;
+    height: 315px;
+    margin: 20px 0;
+}
+
+.caixa-entregas-2 img{
+    padding: 0 10px;
+    width: 500px;
+    height: 270px;
+}
+
+.caixa-entregas-3{
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    margin: 20px 0;
+}
+
+.caixa-entregas-3 img{
+    padding: 0 20px 0;
+    width: 500px;
+    height: 300px;
+}
+
+.caixa-entregas-3 ul{
+    display: inline-block;
+    width: 45%;
+    padding: 10px;
+}
+
+.caixa-entregas-item{
+    width: 45%;
+    display: inline-block;
+    background-color: white;
+    border-right: 2px solid white;
+    padding: 30px 20px;
+}
+
+.caixa-entregas-item p{
+    margin: 10px 0;
+}
+
+.caixa-entregas-item ul{
+    margin: 10px 0;
+}
+
+.caixa-entregas-item ul li{
+    list-style-type: none;
+    padding: 5px 0;
+    display: block;
+    margin-bottom: 2px;
+}
+
+.noticias{
+    margin: 45px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.noticias div{
+    background-color: #FFF;
+    width: 28%;
+    padding: 15px;
+}
+
+.noticias p{
+    text-align: left;
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+.noticias-imagem{
+    width: 320px;
+    height: 300px;
+}
+
+
+
+footer div{
+    background-color: #66B2FF;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 8px 20px;
+    height: 35vh;
+    padding: 10px;
+}
+
+footer ul, footer h4{
+    margin: 10px 0 2px;
+}
+
+footer div ul li{
+    list-style-type: none;
+    padding: 5px 0;
 }
