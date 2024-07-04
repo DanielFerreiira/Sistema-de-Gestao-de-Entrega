@@ -30,7 +30,6 @@
         <div class="calculo-cotação">
             <div class=a1>
                 <h3>Criar conta</h3>
-                <p>Crie uma conta caso ainda não possua uma</p>
                 <form action="">
                     <label for="nomeCom">Nome completo</label>
                     <input type="text" id="nomeCom"><br>
@@ -41,23 +40,28 @@
                     <label for="">CEP</label>
                     <input type="text" id="cep"><br>
                     <label for="">ID da conta</label>
-                    <input type="number" id="comprimento"><br>
+                    <input type="text" id="idconta"><br>
                     <label for="">Senha</label>
                     <input type="text" id="senha"><br>
                     <label for="">Confirmar senha</label>
                     <input type="text" id="senhaconf"><br>
-                    <input type="checkbox" id="term" name="term" value="confirm">
+                    <input type="checkbox" id="term" name="term" value="confirm" required>
                     <label for="term"> Eu li e concordo com os </label><a href="">Termos de uso</a><br>
-                    <button type="submit">CRIAR CONTA</button>
+                    <button type="submit">CRIAR CONTA</button><br>
                 </form>
             </div>
-            <div class=a1>
+            <div class=a2>
                 <h3>Entrar na conta</h3>
-                id de usuário
-                senha
-                lembrar id
-                entrar
-                esqueceu id ou senha?
+                <form action="">
+                    <label for="">ID da conta</label>
+                    <input type="text" id="idlog"><br>
+                    <label for="">Senha</label>
+                    <input type="password" id="senhalog"><br>
+                    <input type="checkbox" id="lembrar" name="lembrar" value="confirm">
+                    <label for="lembrar"> Lembrar meu id da conta.</label><br>
+                    <button type="submit">ENTRAR</button><br>
+                    <a href="">Esqueceu seu id ou senha?</a>
+                </form>
             </div>
         </div>
         <div class="noticias">
