@@ -316,7 +316,7 @@ input#comprimento{
     margin: 15px 0 5px;
 }
 /* Conta */
-.linha p{
+.linha{
     border: 10px groove #686868 ;
     background-color: white;
     font-size: 25px;
