@@ -315,6 +315,12 @@ input#comprimento{
 .a2 h4{
     margin: 15px 0 5px;
 }
+/* Conta */
+.linha p{
+    border: 10px groove #686868 ;
+    background-color: white;
+    font-size: 25px;
+}
 /* Login */
 .a2 form button{
     padding: 15px;
