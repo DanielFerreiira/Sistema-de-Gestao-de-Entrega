@@ -315,7 +315,58 @@ input#comprimento{
 .a2 h4{
     margin: 15px 0 5px;
 }
+/* Login */
+.a2 form button{
+    padding: 15px;
+    margin: 10px 15px;
+    border-radius: 10px;
+}
+.criarlogin{
+    background-color: rgb(71, 104, 228);
+    padding-top: 80px;
+    height: 100px;
+}
 
+.criarlogin h1{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.criarlogin p{
+    text-align: center;
+    padding: 20px 0px;
+    margin-bottom: 20px;
+}
+.cadastro{
+    height: 450px;
+    background-color: rgba(206, 88, 88, 0.87);
+    padding: 20px 0;
+    display: flex;
+    background-color: aquamarine;
+}
+
+.cadastro h3{
+    margin-bottom: 10px;
+}
+
+.cadastro div{
+    display: inline-block;
+    flex-grow: 1;
+    padding: 10px 15px;
+}
+
+.cadastro form label{
+    display: inline-block;
+    padding: 10px 0px;
+    padding-right: 10px;
+    margin: 5px 0;
+}
+
+.cadastro form input{
+    width: 148px;
+    border-radius: 15px;
+    height: 35px;
+}
 /* Rodapé */
 footer div{
     background-color: #66B2FF;
