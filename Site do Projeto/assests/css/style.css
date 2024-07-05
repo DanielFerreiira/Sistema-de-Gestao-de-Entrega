@@ -21,6 +21,10 @@ hr{
    width: 25%;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* Container principal */
 #container{
     width: 1200px;
@@ -125,6 +129,12 @@ nav.navegacao-principal a:hover, nav.navegacao-principal .pagina{
     margin: 20px 0;
 }
 
+.detalhes-rastreamento{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
 .caixa-entregas img{
     width: 550px;
     height: 300px;
@@ -170,6 +180,47 @@ nav.navegacao-principal a:hover, nav.navegacao-principal .pagina{
     border-right: 2px solid white;
     padding: 30px 20px;
 }
+
+.caixa-entregas-item2{
+    width: 90%;
+    display: block;
+    background-color: white;
+    border-right: 2px solid white;
+    padding: 20px 20px;
+}
+
+.caixa-entregas-item3{
+    width: 90%;
+    display: block;
+    background-color: white;
+    border-right: 2px solid white;
+    padding: 18px 20px;
+}
+
+.caixa-entregas-item2 p{
+    padding: 5px;
+    margin: 0px 0 5px;
+}
+
+.caixa-entregas-item3 p{
+    padding: 5px;
+    margin: 5px 0 10px;
+}
+
+.caixa-entregas-item2 hr, .caixa-entregas-item3 hr {
+    width: 100%;
+}
+
+.caixa-entregas-item2 h2, .caixa-entregas-item3 h2{
+    margin: 10px 0 5px;
+}
+
+.caixa-entregas-item2 a{
+    padding: 10px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
 
 .caixa-entregas-item p{
     margin: 10px 0;
