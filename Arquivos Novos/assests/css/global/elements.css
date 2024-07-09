@@ -1,0 +1,52 @@
+/*Limpa formatações*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Tags*/
+a{
+    text-decoration: none;
+}
+
+/*Container*/
+#container{
+    width: var(--largura-container);
+    margin: 0 auto;
+}
+
+/*Classes and IDs*/
+.main-navbar, #empty{
+    height: var(--altura-navbar);
+    width: var(--largura-container);
+}
+
+#empty{
+    background: var(--bg-color);
+}
+
+/*Estilos da Main NavBar*/
+.main-navbar{
+    background-color: var(--main-navbar-bg-color);
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-navbar div, .main-navbar a{
+    display: inline-block;
+    padding: 12px;
+    font-size: 18px;
+    color: var(--black-color);
+}
+
+.main-navbar a:hover, .main-navbar .page{
+    background-color: var(--white-color);    
+    border-radius: 20px;
+}
+
+.heroi-section{
+    height: var(--value-heroi-section);
+}

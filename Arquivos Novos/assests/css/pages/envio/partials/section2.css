@@ -1,0 +1,48 @@
+#envio>.heroi-section{
+    background: var(--bg-color);
+}
+
+.heroi-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0;
+}
+
+.heroi-section h1{
+    padding: 40px 0 15px;
+    font-size: 30px;
+}
+
+.heroi-section header p{
+    background-color: var(--white-color);
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: center;
+    list-style-type: none;
+    margin: 10px 0 0;
+}
+
+li.list-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px 10px;
+    margin: 10px;
+    width: 200px;
+    border: 3px solid #000;
+    border-radius: 30px;
+}
+
+.list-item, .heroi-section h1{
+    text-align: center;
+}
