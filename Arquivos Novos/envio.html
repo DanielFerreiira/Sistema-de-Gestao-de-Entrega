@@ -6,10 +6,10 @@
     <title>Empresa | Serviço expresso de entregas, Transporte e remessas | Brasil</title>
 
     <!--Estilo Global-->
-    <link rel="stylesheet" href="assests/css/global/global.css" class="css">
+    <link rel="stylesheet" href="assests/css/global/global.css">
 
-      <!--Estilo dos elementos da página-->
-      <link rel="stylesheet" href="assests/css/pages/envio/envio.css">
+    <!--Estilo dos elementos da página-->
+    <link rel="stylesheet" href="assests/css/pages/envio/envio.css">
 </head>
 <body>
     <div id="container">
@@ -25,24 +25,129 @@
                 <a href="login.html">Cadastro/Login</a>
             </div>
         </nav><!--Fim da navegação principal-->
-        <div id="empty"></div><!--Div Vazia-->
-        
+         
         <main id="envio">
             <section class="heroi-section">
                 <header>
                     <h1>Obtenha uma cotação de envio de empresas e particular online</h1>
                     <p>Oferecemos uma cotação para suas necessidades de envios nacionais para pacotes ou pallets, grandes ou pequenos. <br>Preencha os detalhes do envio abaixo para visualizar suas cotações. Caso esteja satisfeito, siga para agendar.</p>
                 </header>
-                <ul class="list">
+                <ul class="list" id="special-item">
                     <li class="list-item"><h2>1.</h2>Insira a <br>Origem e Destino</li>
                     <li class="list-item"><h2>2.</h2>Preencha os detalhes <br>do envio</li>
                     <li class="list-item"><h2>3.</h2>Obtenha uma <br>cotação estimada</li>
                     <li class="list-item"><h2>4.</h2>Prossiga com <br>agendamento online</li>
                 </ul>
-                
-            </section>
+            </section><!--Fim da primeira seção-->
 
+            <section class="simulacao">
+                <header>
+                    <h2>Faça uma cotação</h2>
+                    <p>Agilize suas entregas com o melhor serviço de entregas do mundo</p>
+                </header>
+                <div id="simulacao-preco">
+                    <form action="" id="simulacao-form">
+                        <label for="origem">Origem</label>
+                        <input type="text" name="Origem" id="origem" placeholder="Digite a origem">
+
+                        <label for="destino">Destino</label>
+                        <input type="text" name="Destino" id="destino" placeholder="Digite o destino">
+                        <br>
+
+                        <label for="altura">Altura</label>
+                        <input type="text" name="Altura" id="altura" placeholder="Digite a altura em cm">
+
+                        <label for="largura">Largura</label>
+                        <input type="text" name="Largura" id="largura" placeholder="Digite a largura em cm">
+                        <br>
+
+                        <label for="comprimento" id="comprimento2">Comprimento</label>
+                        <input type="text" name="Comprimento" id="comprimento" placeholder="Digite a comprimento em cm">
+                        
+                        <input type="button" value="Simular Cotação" id="btn-simu">
+                    </form>   
+                </div>
+                
+                <div id="simulacao-resultado">
+                    <h2>Possível cotação para sua encomenda</h2>
+                    <hr>
+                    <ul>
+                        <li>
+                            <h3>Preço Normal</h3>
+                            <p>R$ 100,00 em 3 dias úteis</p>
+                        </li>
+                        <li>
+                            <h3>Preço Express</h3>
+                            <p>R$ 200,00 em 1 dias úteis</p>
+                        </li>
+                        <li>
+                            <h3>Preço Premium</h3>
+                            <p>R$ 500,00 dentro de 12 horas</p>
+                        </li>
+                        <li></li>
+                    </ul>
+                </div>           
+            </section><!--Fim da segunda seção-->
+
+            <section class="noticias">
+                <article>
+                    <img src="assests/imagens/global/img-news.png" alt="">
+                    <h3>Logistica Ecológica</h3>
+                    <div>
+                        <p>Um negócio sustentável começa com cadeias de abastecimento sustentáveis. Na qualidade de pioneiros em logística verde, possuímos um portfólio incomparável de soluções ecológicas em logística. Descubra o que temos para oferecer, por que razão estamos comprometidos com a sustentabilidade e como o nosso setor está ajudando a entregar um mundo ainda melhor.</p>
+                    </div>
+                </article>
+
+                <article>
+                    <img src="assests/imagens/global/img-news2.png" alt="">
+                    <h3>Insights e Inovação</h3>
+                    <div>
+                        <p>Para permitir a colaboração, a empresa reúne clientes, instituições acadêmicas e de pesquisa, parceiros do setor e especialistas em logística em suas divisões de negócios. Como um líder de pensamento no setor de logística, a Empresa investe estruturalmente em pesquisa de tendências e desenvolvimento de soluções.</p>
+                    </div>
+                </article>
+
+                <article id="ultimo">
+                    <img src="assests/imagens/global/img-news3.png" alt="">
+                    <h3>Empresa Global</h3>
+                    <div>
+                        <p>A Empresa Global de Relatório de Conectividade em 2024 revela que a globalização se encontra em nível recorde, apesar da pandemia e dos conflitos geopolíticos.</p>
+                    </div>
+                </article>
+            </section><!--Fim da terceira seção-->
         </main><!--Fim do conteúdo principal-->
+
+        <footer>
+            <div>
+                <h3>INFORMAÇÕES DA EMPRESA</h3>
+                <ul>
+                    <li><a href="">Sobre a empresa</a></li>
+                    <li><a href="">Carreiras</a></li>
+                    <li><a href="">Agenda internacional de feriados</a></li>
+                    <li><a href="">Regras Corporativas Vinculativas</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <h3>SUPORTE AO CLIENTE</h3>
+                <ul>
+                    <li><a href="">Escreva para a empresa</a></li>
+                    <li><a href="">Ferramentas online</a></li>
+                    <li><a href="">Cobrança adicionais</a></li>
+                    <li><a href="">Soluções mobile</a></li>
+                    <li><a href="">Itens proibidos para remessa</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>MAIS SOBRE A EMPRESA</h3>
+                <ul>
+                    <li><a href="">Portal dos DEV</a></li>
+                    <li><a href="">Programa de recompensas da empresa</a></li>
+                    <li><a href="">API da empresa</a></li>
+                    <li><a href="">Empresa Compatible</a></li>
+                </ul>
+            </div>
+        </footer><!--Fim do Footer-->
     </div>
 </body>
 </html>

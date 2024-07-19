@@ -1,0 +1,82 @@
+/*CSS dessa seção*/
+.div-item{
+    width: 50%;
+    padding: 20px 15px 0;
+    height: 450px;
+    box-sizing: border-box;
+}
+
+.art-border{
+    border: 5px solid #000;
+    margin: 20px 0;
+}
+
+.servicos{
+    margin: 10px 0 20px;
+    background: var(--bg-color);
+}
+
+.servicos h3{
+    padding: 15px;
+}
+
+.noticias h3{
+    padding: 10px;
+}
+
+.artigos h2{
+    padding: 10px 0 5px;
+}
+
+.artigos p, .noticias p{
+    padding: 5px 0 10px;
+}
+
+.list2 li, .list3 li{
+    border-bottom: 5px solid #FFF;
+}
+
+.list2 li.ultimo, .list3 li.ultimo{
+    border-bottom: 0;
+}
+
+.list2 li{
+    display: block;
+    padding: 10px;
+}
+
+.list2 li span, .list3 li span {
+    position: relative;
+    bottom: 4px;
+}
+
+.list3 li{
+    padding: 10px;
+    width: 45%;
+    margin: 0 10px;
+    align-items: center;
+}
+
+.list2 li>img, .list3 li>img{
+    width: 30px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.div-item img{
+    width: 100%;
+    height: 90%;
+}
+
+hr{
+    border: 2px solid #000;
+    width: 40%;
+}
+
+header{
+    padding-left: 5px;
+}
+
+.servicos h3{
+    background-color: var(--main-navbar-bg-color);
+}

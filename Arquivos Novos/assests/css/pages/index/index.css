@@ -1,1 +1,13 @@
 @import url(partials/section1.css);
+@import url(partials/section2.css);
+@import url(partials/section3.css);
+@import url(partials/footer.css);
+
+/*CSS Comum do Index*/
+.noticias article, .div-item{
+    box-sizing: border-box;
+}
+
+.list2 li span, .list3 li span, .list3 li{
+    display: inline-block;
+}

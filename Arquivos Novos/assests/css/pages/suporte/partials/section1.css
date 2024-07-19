@@ -1,0 +1,10 @@
+/*Main*/
+#suporte>.heroi-section{
+    background: var(--bg-color);
+}
+
+/*CSS de seção*/
+li.list-item{
+    padding: 10px;
+    margin: 10px;
+}

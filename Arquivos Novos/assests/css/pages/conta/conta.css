@@ -1,0 +1,12 @@
+@import url(partials/section1.css);
+@import url(partials/section2.css);
+@import url(partials/section3.css);
+@import url(partials/footer.css);
+
+.noticias h3{
+    padding: 10px;
+}
+
+section.noticias{
+    margin-top: 40px;
+}

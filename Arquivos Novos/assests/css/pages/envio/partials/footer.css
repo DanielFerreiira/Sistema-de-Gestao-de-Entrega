@@ -1,0 +1,17 @@
+/*Ver a classe flex*/
+footer{
+    flex-direction: row;
+    margin-top: 40px;
+    background: var(--bg-color2);
+    padding: 20px;
+}
+
+footer ul{
+    list-style: none;
+    padding: 5px 0;
+}
+
+footer li a{
+    display: block;
+    padding: 5px;
+}

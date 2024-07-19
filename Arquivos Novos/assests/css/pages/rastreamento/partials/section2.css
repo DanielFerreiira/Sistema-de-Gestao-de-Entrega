@@ -1,0 +1,26 @@
+#consulta-rastreamento{
+    border: 5px solid #000;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+#consulta-rastreamento h2{
+    padding-bottom: 5px;
+}
+
+.h2-2{
+    margin-top: 12px;
+}
+
+#consulta-rastreamento p{
+    padding: 5px 0 10px;
+}
+
+#consulta-rastreamento hr{
+    border: 3px solid var(--bg-color);
+    margin-top: 5px;
+}
+
+#consulta-rastreamento #ultimo-p{
+    padding-bottom: 0;
+}

@@ -1,16 +1,18 @@
 :root{
+    /*Values Width and Height*/
+    --height-container: 1200px;
+    --height-navbar: 70px;    
+    --width-heroi-section: 400px;
+    
+    /*Colors*/
     --main-bg-color: #FFFFFF;
     --main-navbar-bg-color: #66B2FF;
     --black-color: #000000;
     --white-color: #FFFFFF;
-    --largura-container: 1200px;
-    --altura-navbar: 70px;    
-    --value-heroi-section: 400px;
-    
-    /*Laranja*/
     --bg-color: #FFC600;
-    
-    /*TAGS IMAGENS*/
+    --bg-color2: #01BAFF;
+
+    /*Variables imagens */
     --img-tag1: url(../../imagens/global/img-tag1.png);
     --img-tag2: url(../../imagens/global/img-tag2.png);
     --img-tag3: url(../../imagens/global/img-tag3.png);

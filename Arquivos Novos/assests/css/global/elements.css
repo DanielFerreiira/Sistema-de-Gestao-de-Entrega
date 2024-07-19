@@ -1,38 +1,71 @@
 /*Limpa formatações*/
 *{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 /*Tags*/
 a{
     text-decoration: none;
+    color: #000;
+}
+
+ul{
+    padding-inline-start: 0;
 }
 
 /*Container*/
-#container{
-    width: var(--largura-container);
-    margin: 0 auto;
+#container, #empty, .main-navbar{
+    width: var(--height-container);
 }
 
 /*Classes and IDs*/
-.main-navbar, #empty{
-    height: var(--altura-navbar);
-    width: var(--largura-container);
-}
-
 #empty{
     background: var(--bg-color);
 }
 
-/*Estilos da Main NavBar*/
+/*Session Heroi*/
+.heroi-section{
+    height: var(--width-heroi-section);
+    justify-content: space-around;
+}
+
+.heroi-section h1{  
+    padding: 30px 0;
+    font-size: 30px;
+}
+
+.heroi-section header p{
+    background-color: var(--white-color);
+}
+
+/*Classes list e list-item*/
+.list{
+    flex-grow: 1;
+    list-style-type: none;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.list-item img{
+    width: 75px;
+    height: 75px;
+}
+ 
+.list-item{
+    background-color: var(--bg-color2);
+    border: 3px solid #000;
+}
+
+#special-item .list-item{
+    justify-content: center;
+}
+/*End of classes and ids*/
+
+/*CSS Main NavBar*/
 .main-navbar{
     background-color: var(--main-navbar-bg-color);
-    position: fixed;
-    top: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 .main-navbar div, .main-navbar a{
@@ -44,9 +77,45 @@ a{
 
 .main-navbar a:hover, .main-navbar .page{
     background-color: var(--white-color);    
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
-.heroi-section{
-    height: var(--value-heroi-section);
+/*CSS de common use*/
+.heroi-section, .list, .list-item, .main-navbar, .cls-flex, footer, section.noticias{
+    display: flex;
+}
+/*.heroi-section, .list, .list-item, .main-navbar substituir depois*/
+
+.heroi-section, .list-item{
+    flex-direction: column;
+    text-align: center;
+}
+
+#container, .heroi-section header p, .list-item img, .noticias img{
+    margin: 0 auto;
+}
+
+.heroi-section header p, .list-item, .noticias article{
+    border-radius: 30px;
+}
+
+.main-navbar, #empty{
+    height: var(--height-navbar);
+}
+
+.main-navbar, .list{
+    flex-direction: row;
+}
+
+.main-navbar, .list-item, footer, section.noticias{
+    justify-content: space-between;
+}
+
+main#envio section.heroi-section>header p, main#suporte section.heroi-section>header p{
+    padding: 20px;
+    width: 90%;
+}
+
+footer a:hover{
+    background-color: var(--white-color);
 }

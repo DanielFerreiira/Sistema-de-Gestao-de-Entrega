@@ -6,7 +6,10 @@
     <title>Empresa | Serviço expresso de entregas, Transporte e remessas | Brasil</title>
 
     <!--Estilo Global-->
-    <link rel="stylesheet" href="assests/css/global/global.css" class="css">
+    <link rel="stylesheet" href="assests/css/global/global.css">
+
+    <!--Estilo dos elementos da página-->
+    <link rel="stylesheet" href="assests/css/pages/login/login.css">
 
 </head>
 <body>
@@ -23,14 +26,80 @@
                 <a href="login.html">Cadastro/Login</a>
             </div>
         </nav><!--Fim da navegação principal-->
-        <div id="empty"></div><!--Div Vazia-->
-        
-        <main>
-            <section class="heroi-div">
+       
+        <main id="login">
+            <section class="heroi-section">
+                <header>
+                    <h1>Tenha acesso ao melhor sistema de entrega do mundo</h1>
+                    <p>Nossa plataforma facilita o acompanhamento de todas as suas contas de clientes, oferecendo um serviço eficiente e adaptado às suas necessidades, seja para entregas individuais ou corporativas.</p>
+                </header>
+            </section><!--Fim da primeira seção-->
 
-            </section>
+            <section id="section-login">
+                <div id="login">
+                    <h2>Login</h2>
+                    <form action="">
+                        <label for="email">E-mail:</label>
+                        <input type="text" placeholder="Digite seu e-mail" id="email">
+                        
+                        <label for="senha">Senha:</label>
+                        <input type="password" placeholder="Digite sua senha" id="senha">
+
+                        <input type="button" value="Entra" id="btn-logar">
+                    </form>
+                </div>
+
+                <div id="cadastro">
+                    <h2>Faça seu cadastro</h2>
+                    <form action="">
+                        <label for="email2">E-mail:</label>
+                        <input type="text" id="email2" placeholder="Digite o e-mail"><br>
+                        
+                        <label for="senha1">Senha:</label>
+                        <input type="password" id="senha1" placeholder="Digite a mesma senha"><br>
+
+                        <label for="senha2">Repita a senha:</label>
+                        <input type="password" id="senha2" placeholder="Digite a mesma senha">
+
+                        <input type="button" value="Fazer Cadastro" id="btn-cadastro">
+                    </form>
+                </div>
+            </section><!--Fim da segunda seção-->
 
         </main><!--Fim do conteúdo principal-->
+
+        <footer>
+            <div>
+                <h3>INFORMAÇÕES DA EMPRESA</h3>
+                <ul>
+                    <li><a href="">Sobre a empresa</a></li>
+                    <li><a href="">Carreiras</a></li>
+                    <li><a href="">Agenda internacional de feriados</a></li>
+                    <li><a href="">Regras Corporativas Vinculativas</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <h3>SUPORTE AO CLIENTE</h3>
+                <ul>
+                    <li><a href="">Escreva para a empresa</a></li>
+                    <li><a href="">Ferramentas online</a></li>
+                    <li><a href="">Cobrança adicionais</a></li>
+                    <li><a href="">Soluções mobile</a></li>
+                    <li><a href="">Itens proibidos para remessa</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>MAIS SOBRE A EMPRESA</h3>
+                <ul>
+                    <li><a href="">Portal dos DEV</a></li>
+                    <li><a href="">Programa de recompensas da empresa</a></li>
+                    <li><a href="">API da empresa</a></li>
+                    <li><a href="">Empresa Compatible</a></li>
+                </ul>
+            </div>
+        </footer><!--Fim do Footer-->
     </div>
 </body>
 </html>

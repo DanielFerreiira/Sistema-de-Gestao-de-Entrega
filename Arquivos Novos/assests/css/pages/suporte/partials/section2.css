@@ -1,0 +1,27 @@
+#section-suporte{
+    border: 5px solid #000;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+#section-suporte h2{
+    padding-bottom: 5px;
+}
+
+#section-suporte p{
+    margin: 5px 0 15px;
+    text-align: justify;
+}
+
+#section-suporte hr{
+    border: 3px solid var(--bg-color);
+    margin: 8px 0;
+}
+
+.h2-2{
+    margin-top: 12px;
+}
+
+#section-suporte #ultimo-p{
+    margin-bottom: 0;
+}
