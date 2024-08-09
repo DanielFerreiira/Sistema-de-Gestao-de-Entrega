@@ -6,5 +6,5 @@ Colaboradores
   <li>Daniel Ferreira Sousa</li>
   <li>Rafael Henrique</li>
 </ul>
-Notas de atualização
+Notas de atualização<br>
 Foi atualizado os html das abas inicial, login, rastreamento, suporte, envio e conta junto do css ainda não separados
